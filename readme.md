@@ -1,3 +1,6 @@
+## About
+This project performs background subtraction to find the foreground object masks for different scene conditions.
+
 ## Instructions
 
 1. Navigate to the directory containing source code `src`
@@ -11,3 +14,7 @@ Example command for `main.py`: `python3 main.py -i ../data/baseline/input -o ../
 1. Navigate to the directory containing extra code `extras`
 2. Open a terminal and compile the files using `g++ main.cpp gmm_final.cpp -std=c++11 pkg-config --cflags --libs openc`. Please enclose `pkg-config --cflags --libs openc` in "``".
 3. Run the executable using `./a.out`
+
+## Collaborators
+
+Done with [Deepak](https://github.com/deepakkhichar) as a part of the course COL780 - Computer Vision at IIT Delhi
